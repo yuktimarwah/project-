@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    color: white;
+    background: url('https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.jpg?s=612x612&w=0&k=20&c=FSGliJ4EKFP70Yjpzso0HfRR4WwflC6GKfl4F3Hj7fk=') no-repeat center center/cover; /* Background image for header */
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space out the hero text and the form */
+    padding: 0 50px;
+}
+
+.top-bar {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* Content container to hold both hero and form */
+.content {
+    display: flex;
+    justify-content: space-between; /* Space the elements */
+    width: 100%;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    width: 50%; /* Take up 50% of the width */
+    padding-left: 30px;
+    text-align: left; /* Align text to the left */
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Form Section */
+.waiting-list {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 300px; /* Set a fixed width for the form */
+}
+
+.waiting-list h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.waiting-list span {
+    font-weight: bold;
+}
+
+.waiting-list input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.waiting-list button {
+    background: #2d2d3b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-image: url('footer-background.jpg');  /* Background image for footer */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.icons span {
+    margin-left: 10px;
+    font-size: 18px;
+}
