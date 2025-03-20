@@ -1,7 +1,23 @@
+/* Make sure body has padding on top to avoid content going under the navbar */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    padding-top: 80px; /* Adjusted to fit the navbar's height */
 }
+
+.navbar {
+    position: fixed; /* Fixed position to stay on top */
+    top: 0; /* Stay at the top of the page */
+    left: 0;
+    width: 100%; /* Ensure it takes full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
 
 header {
     position: relative;
@@ -21,13 +37,7 @@ header {
     font-size: 14px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-    background: rgba(0, 0, 0, 0.5);
-}
+
 
 .logo img {
     height: 40px;
@@ -158,3 +168,4 @@ footer {
     margin-left: 10px;
     font-size: 18px;
 }
+
